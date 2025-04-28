@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Invernadero</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .top-bar, .bottom-bar {
+            background-color: red;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        input, select, button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        button {
+            background-color: red;
+            color: white;
+            border: none;
+        }
+        img {
+            margin-top: 20px;
+            width: 200px;
+            height: auto;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <div>Vivero vital</div>
+    <div>[_] [X]</div>
+</div>
+
+<div class="content">
+    <h2>Registrar Invernadero</h2>
+    <input type="text" placeholder="Nombre del Invernadero">
+    <input type="text" placeholder="Superficie (m²)">
+    <input type="text" placeholder="Capacidad de producción">
+    <select>
+        <option>Tipo de Cultivo</option>
+        <option>Flores</option>
+        <option>Frutas</option>
+    </select>
+    <select>
+        <option>Sistema de riego</option>
+        <option>Manual</option>
+        <option>Automatizado</option>
+        <option>Por goteo</option>
+    </select>
+    <input type="date">
+    <input type="text" placeholder="Responsable">
+    <button>Guardar</button>
+    <button>Cancelar</button>
+
+    <img src="9a2501dc-7f66-4160-8904-6aa78b4a67b7.png" alt="Invernadero">
+</div>
+
+<div class="bottom-bar">
+    <a href="control_invernadero.html">Ir a Control de Invernaderos</a>
+</div>
+
+</body>
+</html>
