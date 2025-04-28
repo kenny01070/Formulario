@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Control de Invernaderos</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .top-bar, .bottom-bar {
+            background-color: red;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <div>Vivero vital</div>
+    <div>[_] [X]</div>
+</div>
+
+<div class="content">
+    <h2>Control de Invernaderos</h2>
+    <button>Editar</button>
+    <button>Eliminar</button>
+    <button>Detalles</button>
+    <button>Agregar Nuevo Invernadero</button>
+</div>
+
+<div class="bottom-bar">
+    <a href="control_humedad_enfermedades.html">Ir a Control de Humedad y Enfermedades</a>
+</div>
+
+</body>
+</html>
