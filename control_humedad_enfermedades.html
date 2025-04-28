@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Control de Humedad y Enfermedades</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .top-bar, .bottom-bar {
+            background-color: red;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+        }
+        img {
+            margin: 10px;
+            width: 200px;
+            height: auto;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <div>Vivero vital</div>
+    <div>[_] [X]</div>
+</div>
+
+<div class="content">
+    <h2>Control de Humedad y Enfermedades</h2>
+    <button>Control de Humedad</button>
+    <button>Control de Piso</button>
+    <button>Control de Riego</button>
+    <button>Enfermedades</button>
+    <button>Plagas</button>
+    <button>Temperatura</button>
+
+    <div class="images">
+        <img src="https://img.freepik.com/vector-gratis/muchas-plantas-invernadero-pared-vidrio-carretilla-sobre-fondo-blanco_1308-53210.jpg?semt=ais_hybrid&w=740" alt="Invernadero 1">
+        <img src="https://img.freepik.com/vector-premium/invernadero-jardin-casa-invernadero-botanico-vidrio-cactus-plantas-tropicales-cultivadas-maceta-concepto-vector-naturaleza-verde-dibujos-animados-invernadero-botanico-invernadero-ilustracion-cultivo_102902-4835.jpg" alt="Invernadero 2">
+    </div>
+</div>
+
+<div class="bottom-bar">
+    <a href="index.html">Volver al inicio</a>
+</div>
+
+</body>
+</html>
